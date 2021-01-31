@@ -1,6 +1,16 @@
+[alias]
+	lol = log --graph --decorate --pretty=oneline --all --abbrev-commit
+[core]
+	editor = /usr/bin/vim
+[diff]
+	tool = /usr/bin/vimdiff
+[difftool]
+	prompt = false
+[merge]
+	conflictStyle = diff3
+	tool = /usr/bin/vimdiff
+[mergetool]
+	prompt = false
 [user]
 	name = oɹıɥɐsɐɯ ɐʇıɾnɟ
 	email = mfjt@users.noreply.github.com
-
-[core]
-	editor = /usr/bin/vim
